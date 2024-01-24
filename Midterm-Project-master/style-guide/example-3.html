@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<!-- Head -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Midterm Project - Organisms</title>
+  <link rel="stylesheet" href="../css/style.css?v=1.0">
+
+</head>
+<!-- Body -->
+<body>
+  <section class="main">
+    <h1>Example 3</h1>
+    <p><a href="index.html">All Organisms</a></p>
+    <div>
+      <h2>Reddit</h2>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dark/Light Mode Toggle</title>
+        <style>
+            body {
+                transition: background-color 0.3s;
+            }
+    
+            /* Style for the toggle button */
+            #toggleButton {
+                background-color: #3498db;
+                color: #fff;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Dark/Light Mode Toggle Button -->
+        <button id="toggleButton" onclick="toggleMode()">Toggle Dark/Light Mode</button>
+    
+        <script>
+            function toggleMode() {
+                // Get the body element
+                var body = document.body;
+    
+                // Toggle the dark mode class
+                body.classList.toggle("dark-mode");
+    
+                // Check if dark mode is active and update button text accordingly
+                var isDarkMode = body.classList.contains("dark-mode");
+                document.getElementById("toggleButton").innerText = isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode";
+            }
+        </script>
+    
+    </body>
+    </div>
+  </section>
+</body>
+</html>
