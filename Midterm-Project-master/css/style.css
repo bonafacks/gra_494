@@ -63,3 +63,30 @@ p.copyright {
 		margin: 5rem 2rem;
 	}
 }
+
+/* Style for the toggle button */
+#toggleButton {
+    background-color: #f57f49;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #b3aaaa;
+    color: #fff;
+}
+
+.dark-mode #toggleButton {
+    background-color: #2a2c2a;
+}
+
+.dark-mode #toggleButton:hover {
+    background-color: #45a049;
+}
+
+
