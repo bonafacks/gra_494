@@ -9,12 +9,13 @@ body {
 	font-size: 16px;
 	background-color: #303841;
 	color: #d8dee9;
+	font-family: 'Didact Gothic', sans-serif;
 }
 h1,h2,h3,p,ol,ul,li,a {
-	font-family: sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 }
 h1,h2,h3 {
-	font-family: sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	color: #EDEDED;
 }
 h2 {
