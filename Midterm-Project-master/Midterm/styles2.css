@@ -39,267 +39,270 @@ nav {
 
 header {
   position: relative;
-  /* Add position relative */
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(0, 0, 0);
-  /* Change text color to white for better contrast */
 }
 
 .header-content {
   text-align: center;
   position: relative;
-  /* Add position relative */
   z-index: 1;
-  /* Ensure header content is in front */
 }
 
-.header-content h1 {
-  font-size: 48px;
-}
+  .header-content h1 {
+    font-size: 48px;
+  }
 
-.header-image {
-  position: absolute;
-  /* Add position absolute for image positioning */
-  top: 0;
-  /* Position from the top */
-  right: 0;
-  /* Position from the right */
-  max-height: 100%;
-  /* Limit the height of the image */
-  width: 50%;
-  /* Maintain aspect ratio */
-  z-index: 0;
-  /* Ensure image is behind header content */
-  padding-right: 10%;
-}
+  .header-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 100%;
+    width: 50%;
+    z-index: 0;
+    padding-right: 10%;
+  }
 
 
 
-.paragraph-section {
-  background-color: #ffffff;
-  /* Example background color */
-  padding: 40px 20px;
-  /* Example padding */
-}
+  .paragraph-section {
+    background-color: #ffffff;
+    
+    padding: 40px 20px;
+    
+  }
 
-.container {
-  display: flex;
-  align-items: flex-start;
-  /* Align items at the start of the cross axis */
-}
+  .container {
+    display: flex;
+    align-items: flex-start;
+    
+  }
 
-.text-content {
-  flex: 1;
-  /* Take up remaining space */
-  padding-left: 5%;
-}
+  .text-content {
+    flex: 1;
+    padding-left: 5%;
+  }
 
-.text-content h2 {
-  margin-top: 0;
-  /* Remove default margin */
-  margin-bottom: 10px;
-  /* Add some spacing between header and paragraph */
-  padding-left: 5%;
-}
+  .text-content h2 {
+    margin-top: 0;
+    
+    margin-bottom: 10px;
+    
+    padding-left: 5%;
+  }
 
-.container img {
-  width: 300px;
-  /* Example width */
-  height: 300px;
-  /* Maintain aspect ratio */
-  margin-left: 20px;
-  /* Example margin */
-}
+  .container img {
+    width: 300px;
+    
+    height: 300px;
+    
+    margin-left: 20px;
+    
+  }
 
 
-.section {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  /* Set the desired height */
-  overflow: hidden;
-}
+  .section {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
 
-.image {
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
-  height: 200%;
-  margin: auto;
-}
+  .image {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 200%;
+    margin: auto;
+  }
 
-.four-boxes-section {
-  background-color: #fcfbfb;
-  padding: 20px 20px;
-}
+  .four-boxes-section {
+    background-color: #fcfbfb;
+    padding: 20px 20px;
+  }
 
-.four-boxes-section header {
-  text-align: center;
-}
+  .four-boxes-section header {
+    text-align: center;
+  }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  /* Allow boxes to wrap on smaller screens */
-}
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
-.four-boxes-section {
-  background-color: #f2f2f2;
-  /* Example background color */
-  padding: 40px 20px;
-  /* Example padding */
-}
+  }
 
-.four-boxes-section header {
-  text-align: center;
-}
+  .four-boxes-section {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  /* Ensure all items stretch to match container height */
-}
+  }
 
-.box {
-  flex: 1;
-  /* Make all boxes take equal space */
-  background-color: #ffffff;
-  /* Example background color */
-  padding: 20px;
-  /* Example padding */
-  box-sizing: border-box;
-  /* Include padding in width calculation */
-  margin-right: 20px;
-  /* Example margin */
-  display: flex;
-  flex-direction: column;
-}
+  .four-boxes-section header {
+    text-align: center;
+  }
 
-.box:last-child {
-  margin-right: 0;
-  /* Remove margin from last box */
-}
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    /
+  }
 
-.box h2 {
-  margin-top: 0;
-  /* Remove default margin */
-  margin-bottom: 10px;
-  /* Add some spacing between header and paragraph */
-}
+  .box {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.box p {
-  margin-bottom: 15px;
-  /* Example margin */
-}
+  .box:last-child {
+    margin-right: 0;
 
-.box button {
-  background-color: #fd0c0c;
-  /* Example button color */
-  color: #ffffff;
-  /* Example text color */
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+  }
 
-.box button:hover {
-  background-color: #ff6f6f;
-  /* Example button hover color */
-}
+  .box h2 {
+    margin-top: 0;
 
-.video-section {
-  display: flex;
-  align-items: center;
-}
+    margin-bottom: 10px;
 
-.video-thumbnail {
-  margin-right: 20px; /* Adjust margin as needed */
-  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
-  width: 100px; /* Set the width of the thumbnail */
-  height: auto; /* Let the height adjust based on the width */
-}
+  }
 
-.video-info {
-  flex: 1;
-}
+  .box p {
+    margin-bottom: 15px;
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-}
+  }
 
-.lightbox {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 9999;
-  text-align: center;
-}
+  .box button {
+    background-color: #fd0c0c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-.video-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  .box button:hover {
+    background-color: #ff6f6f;
+  }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: none;
-}
-footer {
-  background-color: #ffffff;
-  padding: 20px;
-  text-align: center;
-}
+  .video-section {
+    display: flex;
+    align-items: center;
+  }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .video-thumbnail {
+    margin-right: 20px;
+    cursor: pointer;
+     width: 100px;
+    height: auto;
+  }
 
-.footer-content .logo img {
-  height: 30px; /* Adjust height as needed */
-}
+  .video-info {
+    flex: 1;
+  }
 
-.footer-text {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-.footer-text li {
-  display: inline;
-  margin-right: 10px; /* Adjust spacing between list items */
-}
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    text-align: center;
+  }
 
-.copyright {
-  flex-grow: 1; 
-  text-align: center; 
-}
+  .video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.copyright p {
-  font-size: 14px; 
-  color: #888888; 
-}
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
 
+  footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-content .logo img {
+    height: 30px;
+  }
+
+  .footer-text {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-text li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .copyright {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .copyright p {
+    font-size: 14px;
+    color: #888888;
+  }
+
+  #toggleButton {
+    background-color: #f57f49;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  /* Dark mode */
+  .dark-mode {
+    background-color: #b3aaaa;
+    color: #fff;
+  }
+
+  .dark-mode #toggleButton {
+    background-color: #2a2c2a;
+  }
+
+  .dark-mode #toggleButton:hover {
+    background-color: #45a049;
+  }

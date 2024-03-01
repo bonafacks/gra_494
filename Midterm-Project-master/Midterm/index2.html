@@ -24,6 +24,18 @@
       videoFrame.src = ""; // Stop video playback
     }
 
+    function toggleMode() {
+                // Get the body element
+                var body = document.body;
+    
+                // Toggle the dark mode class
+                body.classList.toggle("dark-mode");
+    
+                // Check if dark mode is active and update button text accordingly
+                var isDarkMode = body.classList.contains("dark-mode");
+                document.getElementById("toggleButton").innerText = isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode";
+            }
+
   </script>
 
   <head>
@@ -38,6 +50,7 @@
     <div class="logo">
       <img src="coco.png" alt="coco cola logo">
     </div>
+    <button id="toggleButton" onclick="toggleMode()">Toggle Dark/Light Mode</button>
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
